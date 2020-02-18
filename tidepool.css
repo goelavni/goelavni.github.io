@@ -1,0 +1,241 @@
+
+.crab {
+ padding: 12px 20px;
+  transition: all .1s linear;
+}
+.crab:active {
+ transform: translateY(30px);
+}
+
+.wave {
+    position: absolute;
+ left: -950px;
+  top: 0px;
+}
+
+@keyframes slide {
+  0% {
+    right: 0;
+  }
+  100% {
+    left:.100px;
+  }
+}
+.wave:hover{
+  animation-name:slide;
+}
+
+.wave:hover{
+  animation-name: slide;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: .5s;
+  animation-iteration-count: 2;
+  animation-direction: alternate;
+  z-index:4;
+
+
+}
+
+
+.tidepool{
+position:absolute;
+width: 400px;
+height: 400px;
+top: 90px;
+left: 200px;
+z-index:2;
+}
+
+.tidepool2{
+position:absolute;
+width: px;
+height: 300px;
+top: 600px;
+left: 200px;
+z-index:2;
+}
+
+.tidepool3{
+position:absolute;
+width:px;
+height: 300px;
+top: 400px;
+left: 700px;
+z-index:2;
+}
+
+.pinkstarfish{
+position:absolute;
+width:110px;
+height: 110px;
+top: 450px;
+left: 750px;
+z-index:2;
+}
+.pinkstarfish:hover{
+animation: rotateCircle 5s infinite alternate;
+}
+@keyframes rotateCircle {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.orangestarfish{
+position:absolute;
+width:120px;
+height: 120px;
+top: 530px;
+left: 830px;
+z-index:2;
+}
+.orangestarfish:hover{
+animation: rotateCircle 5s infinite alternate;
+}
+
+.bluestarfish{
+position:absolute;
+width:100px;
+height: 100px;
+top: 460px;
+left: 950px;
+z-index:2;
+}
+.bluestarfish:hover{
+animation: rotateCircle 5s infinite alternate;
+}
+
+.greenstarfish{
+position:absolute;
+width:90px;
+height: 90px;
+top: 580px;
+left: 990px;
+z-index:2;
+}
+
+.greenstarfish:hover{
+animation: rotateCircle 5s infinite alternate;
+}
+
+.yellowstarfish{
+position:absolute;
+width:90px;
+height: 90px;
+top: 580px;
+left: 735px;
+z-index:2;
+}
+.yellowstarfish:hover{
+animation: rotateCircle 5s infinite alternate;
+}
+
+
+.crab{
+position:absolute;
+width:230px;
+height:230px;
+top: 160px;
+left: 280px;
+z-index:2;
+}
+
+.longshell{
+position:absolute;
+width:110px;
+height:130px;
+top: 320px;
+left: 280px;
+z-index:2;
+}
+
+.clamshell{
+position:absolute;
+width:80px;
+height:90px;
+top: 140px;
+left: 380px;
+z-index:2;
+}
+
+.swirlshell{
+position:absolute;
+width:60px;
+height:90px;
+top: 240px;
+left: 520px;
+z-index:2;
+}
+
+#freeform{
+  width: 100px;
+height: 100px;
+background-color: purple;
+  position: absolute;
+  top: 700px;
+  left: 220px;
+  border-radius: 100%;
+  z-index:3;
+  background: purple;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+#freeform:hover {
+  background: orange;
+}
+
+.spikes{
+position:absolute;
+width:200px;
+height:200px;
+top: 650px;
+left: 180px;
+z-index:2;
+}
+
+#freeform2{
+  width: 70px;
+height: 70px;
+background-color: purple;
+  position: absolute;
+  top: 750px;
+  left: 400px;
+  border-radius: 100%;
+  z-index:3;
+  background: black;
+  transition-property: background;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+
+#freeform2:hover {
+  background: blue;
+}
+
+.spikes2{
+position:absolute;
+width:160px;
+height:160px;
+top: 705px;
+left: 365px;
+z-index:2;
+}
+
+
+.demo-div{
+width: 100%;
+height: 1000px;
+background-color: tan;
+z-index:1;
+  
+  
+
+
+}
