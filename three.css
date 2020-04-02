@@ -1,0 +1,20 @@
+.pie1{
+position:absolute;
+width: 5px;
+height: 5px;
+}
+
+
+.pie2{
+position:absolute;
+width: 40px;
+height: 40px;
+left: 400px;
+}
+
+.pie3{
+position:absolute;
+width: 5px;
+height: 5px;
+left: 600px;
+}
